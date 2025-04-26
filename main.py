@@ -104,4 +104,4 @@ async def rps(interaction: discord.Interaction, choice: str):
     )
 
 # Run the bot
-bot.run("MTM1NDg0NjQ2MzIxMjkxMjY5MA.G1eWRw.lsV9-A90ynig06e9nvpuAcJK0je3d_2WIy0JpM")
+bot.run(os.getenv("TOKEN"))
